@@ -31,7 +31,9 @@ class AddToList {
         }
 
         for(const text of this.listText) {
-            this.listElem.appendChild(AddToList.createListItem(text))
+            this.listElem.appendChild(AddToList.createListItem(text));
+            
+            indexInputElem.setAttribute("max", this.listText.length);
         }
     }
 
