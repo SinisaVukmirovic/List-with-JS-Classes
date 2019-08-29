@@ -33,7 +33,7 @@ input {
     width: 67.5%;
     outline: none;
     border: 2px solid #eee;
-    padding: .25em 1em;
+    padding: .25em 0 .25em .5em;
     font-size: 1.25rem;
 }
     input::placeholder {
